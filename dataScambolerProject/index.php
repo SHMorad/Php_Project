@@ -1,7 +1,7 @@
 <?php
 include_once 'function.php';
-$task= 'encode';
-if(isset($_GET['task']) && $_GET['task'] !='' ){
+$task='encode';
+if(isset($_GET['task']) && $_GET['task'] !=''){
     $task= $_GET['task'];
 }
 $key='abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ';

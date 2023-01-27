@@ -1,5 +1,6 @@
 <?php
-define('DB_NAME','C:\xampp\htdocs\PhpByHasinHayder\crudProject\data\data.txt');
+// define('DB_NAME','C:\xampp\htdocs\PhpByHasinHayder\Php_Project\crudProject\data\data.txt');
+define('DB_NAME','data/data.txt');
 function seed(){
     $data = array(
                 array(
